@@ -13,8 +13,8 @@ const { NotImplementedError } = require('../extensions/index.js');
  * transform([1, 2, 3, '--discard-prev', 4, 5]) => [1, 2, 4, 5]
  * 
  */
-function transform(/*arr*/) {
-  // throw new NotImplementedError('Not implemented');
+function transform(arr) {
+
   let copyArr = [...arr];
   if (!Array.isArray(copyArr)) {
     throw new Error("'arr' parameter must be an instance of the Array!")

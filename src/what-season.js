@@ -11,8 +11,8 @@ const { NotImplementedError } = require('../extensions/index.js');
  * getSeason(new Date(2020, 02, 31)) => 'spring'
  * 
  */
-function getSeason(/*date*/) {
-  // throw new NotImplementedError('Not implemented');
+function getSeason(date) {
+
   if (Object.prototype.toString.call(date) !== '[object Date]' || date === '[new Date()]') {
     return 'Invalid date!'
   }

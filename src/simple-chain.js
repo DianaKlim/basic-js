@@ -1,10 +1,12 @@
+
+
 const { NotImplementedError } = require('../extensions/index.js');
 
 /**
  * Implement chainMaker object according to task description
  * 
  */
- throw new NotImplementedError('Not implemented');
+
 
 const chainMaker = {
 
